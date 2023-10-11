@@ -1,0 +1,69 @@
+Notes for IBT DevOps class (Linux commands and Git commands) 
+
+pwd: Print working directory
+
+ls: List all the files and folders in the present working directory
+
+ls -l: means long list and shows more details of folder like date created, owner e.t.c
+
+ls -lrt: Sorts in order
+
+cd: Change directory
+
+cd../: takes you a step back (if you press the up arrow it shows all the old commands)
+
+(if you use cd.. it does the same thing as cd../)
+
+mkdir: Creates a directory or folder inside a directory or folder
+
+-rw-r--r--
+
+rw: Permissions for User
+
+r--: Permissiona for groups
+
+r--: Permissions for others
+
+RWX means Read Write Execute
+
+chmod: Change mode of permission or change permission
+
+chmod g+w: group write permission
+
+n/b     g:group
+	o:others
+	u:users
+
+chmod g+w,o+w of directory: Change group and others permission and give write access
+
+touch: create file 
+e.g touch file3.txt
+
+vi: Command to open a file
+e.g vi file3.txt
+
+n/b To write in a file press "i" on keyboard and shows insert mode, then you can write in a file.
+
+:wq: Save and quit. To save an input into created file and quit our of the file.
+n/b "W" means write/save, "q" means quit
+
+cat: shows context of a file.
+
+ls -lart: shows all hidden folder.
+
+git init: makes git to track or make repo.
+
+git status: tells you what git has tracked.
+
+git add: tells git to track file.
+
+git commit -m: allows you add message
+e.g git commit -m "creating one.html."
+
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+git config --global user.email "MY_NAME@example.com"
+
+
+
+	
